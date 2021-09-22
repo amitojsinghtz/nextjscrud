@@ -1,0 +1,1 @@
+{"ast":null,"code":"const apiUrl = false ? 'http://localhost:3000/api' // development api\n: 'http://localhost:3000/api'; // production api\n\nexport { apiUrl };","map":null,"metadata":{},"sourceType":"module"}

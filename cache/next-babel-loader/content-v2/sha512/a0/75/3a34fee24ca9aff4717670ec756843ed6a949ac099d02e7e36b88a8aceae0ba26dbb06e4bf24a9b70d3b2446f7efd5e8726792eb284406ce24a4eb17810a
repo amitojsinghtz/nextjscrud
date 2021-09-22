@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { AddEdit } from 'components/users';\nimport { userService } from 'services';\nexport default AddEdit;\nexport async function getServerSideProps({\n  params\n}) {\n  const user = await userService.getById(params.id);\n  return {\n    props: {\n      user\n    }\n  };\n}","map":null,"metadata":{},"sourceType":"module"}
